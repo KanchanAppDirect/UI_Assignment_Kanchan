@@ -1,0 +1,203 @@
+.header-bar {
+  list-style: none;
+  display: flex;
+  background-color: #2D2A26;
+  color: #999;
+  height: 60px; }
+  .header-bar-img {
+    background-repeat: no-repeat;
+    background-image: url(appdirect_logo.png);
+    display: block;
+    background-size: contain;
+    padding: 18px;
+    margin-left: 120px; }
+  .header-bar-item {
+    padding-right: 35px;
+    padding-top: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    align-self: center;
+    font-family: sans-serif; }
+    .header-bar-item-link {
+      text-decoration: none;
+      color: #999; }
+  .header-bar-account {
+    margin-left: 600px; }
+  .header-bar-name {
+    margin-right: 80px; }
+  .header-bar-dropdown {
+    list-style: none;
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 18px; }
+    .header-bar-dropdown-content {
+      color: black;
+      padding: 8px 14px;
+      text-decoration: none;
+      display: block;
+      border-bottom: 1px solid grey; }
+      .header-bar-dropdown-content-content:hover {
+        background-color: #009abf; }
+
+.hide {
+  display: none; }
+
+.dropdown-profile:hover {
+  background-color: #545656; }
+
+.section {
+  display: flex; }
+  .section-bar {
+    border: 2px solid #999;
+    width: 600px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 2px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    font-family: verdana;
+    font-size: large;
+    margin-left: 255px;
+    background-size: cover;
+    height: 600px; }
+    .section-bar-heading {
+      font-size: 20px;
+      font-family: verdana; }
+    .section-bar-form {
+      list-style: none;
+      text-align: center;
+      font-size: 19px;
+      font-family: verdana;
+      padding-left: 0px;
+      padding-right: 20px; }
+      .section-bar-form-li {
+        padding-bottom: 25px; }
+      .section-bar-form-element {
+        position: relative;
+        left: 50px; }
+      .section-bar-form-element1 {
+        position: relative;
+        left: 50px; }
+      .section-bar-form-element2 {
+        position: relative;
+        left: 46px; }
+      .section-bar-form-element3 {
+        position: relative;
+        left: 39px; }
+      .section-bar-form-element4 {
+        position: relative;
+        left: 46px; }
+      .section-bar-form-element5 {
+        position: relative;
+        left: 69px; }
+      .section-bar-form-element6 {
+        position: relative;
+        left: 53px; }
+      .section-bar-form-element7 {
+        position: relative;
+        left: 55px; }
+      .section-bar-form-element8 {
+        position: relative;
+        left: 19px; }
+    .section-bar-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 3px;
+      padding-top: 40px;
+      padding-bottom: 20px; }
+      .section-bar-button-reset {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-right: 25px;
+        border-left-width: 2px;
+        border-right-width: 2px;
+        font-size: medium;
+        font-family: verdana;
+        background-color: #1078EE;
+        color: #F7F9F9; }
+      .section-bar-button-register {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-right: 25px;
+        border-left-width: 2px;
+        border-right-width: 2px;
+        font-size: medium;
+        font-family: verdana;
+        background-color: #24B210;
+        color: #F7F9F9; }
+  .section-dashboard {
+    border: 2px solid #999;
+    width: 400px;
+    margin-right: 500px;
+    height: 600px;
+    margin: 20px;
+    overflow-y: scroll;
+    font-family: verdana;
+    padding-top: 10px;
+    margin-bottom: 2px;
+    padding-bottom: 10px;
+    font-size: xx-large;
+    margin-top: 1px; }
+    .section-dashboard -span {
+      display: flex;
+      justify-content: center;
+      font-size: 60px; }
+    .section-dashboard-content {
+      list-style-type: none; }
+      .section-dashboard-content-item {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        background-color: #999; }
+        .section-dashboard-content-item-link {
+          text-decoration: none;
+          color: black; }
+
+.section-dashborad-email {
+  display: none; }
+
+.section-dashboard-content-item-link:hover + .section-dashborad-email {
+  display: block; }
+
+.footer-bar {
+  border-top: 1px solid #a9a9a9;
+  height: 40px;
+  display: flex;
+  width: 1050px;
+  margin-left: 150px;
+  padding-left: 0; }
+  .footer-bar-left {
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0; }
+    .footer-bar-left-item {
+      margin-left: 25px;
+      color: #808080;
+      font-size: 13px; }
+  .footer-bar-right {
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 160px; }
+    .footer-bar-right-item {
+      margin-left: 25px;
+      color: #808080;
+      font-size: 13px; }
+  .footer-bar-img {
+    background-repeat: no-repeat;
+    background-image: url(appdirect_footer.png);
+    display: block;
+    background-size: contain;
+    padding: 18px;
+    margin-left: -10px; }
+
+/*# sourceMappingURL=urfileStyle.css.map */

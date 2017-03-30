@@ -1,0 +1,69 @@
+.header-bar {
+	list-style: none;
+	display: flex;
+	background-color: #2D2A26;
+	color: #999;
+	height: 60px;
+
+	&-img {
+		background-repeat: no-repeat;
+		background-image: url(appdirect_logo.png);
+		display: block;
+		background-size: contain;
+		padding: 18px;
+		margin-left: 120px;
+	}
+
+	&-item {
+		padding-right: 35px;
+		padding-top: 5px;
+		font-size: 14px;
+		text-decoration: none;
+		align-self: center;
+		font-family: sans-serif;
+
+		&-link {
+			text-decoration: none;
+			color: #999;
+		}
+	}
+
+	&-account {
+		margin-left: 600px;
+	}
+
+	&-name {
+		margin-right: 80px;
+	}
+
+	&-dropdown {
+		list-style: none;
+		display: block;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 150px;
+		margin-left: 0px;
+		padding-left: 0px;
+		margin-top: 18px;
+
+		&-content {
+			color: black;
+			padding: 8px 14px;
+			text-decoration: none;
+			display: block;
+			border-bottom: 1px solid grey;
+
+			&-content:hover {
+				background-color: #009abf;
+			}
+		}
+	}
+}
+
+.hide {
+	display: none;
+}
+
+.dropdown-profile:hover {
+	background-color: #545656;
+}
