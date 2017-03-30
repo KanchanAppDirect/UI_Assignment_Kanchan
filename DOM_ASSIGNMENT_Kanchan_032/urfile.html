@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+<html>
+    <head> 
+           <title> Market Place </title>
+           <link rel="stylesheet" type="text/css" href="SCSS/urfileStyle.css">
+          
+    </head>
+    <body>
+		<header>
+            <ul class="header-bar">
+           
+                        <li class="header-bar-item "> <a href="#" class="header-bar-item-link"> <span class="header-bar-img"> </span> 
+                        </a></li>
+                        <li class="header-bar-item"> <div  class="header-bar-myapps"> <a href="#" class="header-bar-item-link"> MyApps  
+                        &#x25bc; </a> </div> </li> 
+                        <li class="header-bar-item"> <div class="header-bar-marketplace"> <a href="#" class="header-bar-item-link"> Marketplace </a> </div> </li>
+                        <li class="header-bar-item"> <div class="header-bar-account"> <a href="#" class="header-bar-item-link"> Account 
+                        </a> </div> </li> 
+                        <li class="header-bar-item" id="header-bar-item-id" onmouseleave="hideDropdown()"> <div class="header-bar-name"> 
+                        	<a href="#" class="header-bar-item-link dropdown-profile" onclick ="showDropdown()"> 
+                        	Kanchan Sharma &#x25bc;
+                        	</a> </div>
+
+                            <ul id="Profile-dropdown" class="header-bar-dropdown hide">
+						  	<li> <a class="header-bar-dropdown-content" href="#">My Profile</a></li>
+						   	<li> <a class="header-bar-dropdown-content" href="#">My Company</a></li>
+						    <li> <a class="header-bar-dropdown-content" href="#">My Settings</a></li>
+						    <li> <a class="header-bar-dropdown-content" href="#">Log Out </a> </li>
+						    </ul> 
+					    </li>
+            </ul>
+        </header>
+
+        <section class="section">
+            <div class="section-bar">
+				<div class="section-bar-heading">Registration Page </div>
+			        <ul class="section-bar-form">
+					    <li class="section-bar-form-li">First Name <span class="section-bar-form-element"> 
+					        <input id="fname" type="text" name="fname" placeholder="First Name"  onblur="validate1()" > </span> 
+					    </li>
+					    <li class="section-bar-form-li">Last Name <span class="section-bar-form-element1">
+						    <input id="lname" type="text" name="lname" placeholder="Last Name" >  </span> 
+					    </li>
+					    <li class="section-bar-form-li">Address (P) <span class="section-bar-form-element2">
+						    <input  id="P_Address" type="text" name="P_Address" placeholder="Primary Address" onblur="emptyAddressP()" > </span> 
+					    </li>
+					    <li class="section-bar-form-li"> <span class="section-bar-form-element3"> 
+					        <input  type="checkbox" id="check" onclick="copy_Address()"> </span> 	
+					    </li>
+					    <li class="section-bar-form-li"> Address (C) <span class="section-bar-form-element4">
+						    <input id="C_address" type="text" name="C_address" placeholder="Current Address" onblur="emptyAddressC()" >
+						    </span> 
+					    </li>
+					    <li class="section-bar-form-li"> E-mail <span class="section-bar-form-element5">
+						    <input id="email" type="text" name="E-mail" placeholder="Email-id" onblur="emailValidation()"> </span> 
+					    </li>
+					    <li class="section-bar-form-li"> Phone-no <span class="section-bar-form-element6"> 
+						    <input id="Phone_no" type="number" name="Phone_no" placeholder="Phone-no" onblur="PhoneValidation()"> </span>
+						</li>    
+					    <li class="section-bar-form-li">Password <span class="section-bar-form-element7"> 
+					        <input id="password" type="Password" placeholder="Password" name="password" onblur="checkPassword()"> 
+					        </span>
+						</li>
+					    <li class="section-bar-form-li"> Confirm Password <span class="section-bar-form-element8"> <input type="password" placeholder="Re-enter Password" id="re-pass" onchange="CpasswordValidation()">  </span> 
+					    </li>
+				    </ul>
+
+					<div class="section-bar-button">
+						<a href="#"> 
+						    <input id="reset" type="button" name="Reset" value="Reset" onclick="resetData()" class="section-bar-button-reset">
+						</a>
+						<a href="#">
+					        <input id="register" type="button" name="Register" value="Register" onclick="DashBoard()" class="
+					        section-bar-button-register" disabled>
+					    </a>    
+					</div>
+            </div>
+
+		    <div class="section-dashboard">
+			    <span class="section-dashboard-span" id="section-dashboard-span-id"> Dashboard </span>
+			        <ul class="section-dashboard-content" id="section-dashboard-content-id">		          		
+			    </ul>
+		    </div>				
+        </section>
+
+        <footer>
+            <ul class="footer-bar">
+		        <ul class="footer-bar-left">
+			        <li class="footer-bar-left-item"> <span class="footer-bar-img"> </span> </li>
+			        <li class="footer-bar-left-item"> Powered By AppDirect ©2009-2017 </li>
+		        </ul>
+		        <ul class="footer-bar-right">
+			        <li class="footer-bar-right-item">
+				        <select>English (United States)  
+					        <option>English (UK)</option>
+					        <option>Mandarin (China)</option>
+					        <option>Hindi (India)</option>
+					        <option>Marathi </option>
+				        </select>
+			        </li>
+			        <li class="footer-bar-right-item">Help Center</li>
+			        <li class="footer-bar-right-item">Privacy Policy</li>
+			        <li class="footer-bar-right-item">Terms and Conditions</li>
+			        <li class="footer-bar-right-item">Contact</li>
+		        </ul>
+	        </ul>
+        </footer>
+
+    <script type="text/javascript" src="JS/MarketPlace.js">
+	</script>
+    </body>
+</html>
+

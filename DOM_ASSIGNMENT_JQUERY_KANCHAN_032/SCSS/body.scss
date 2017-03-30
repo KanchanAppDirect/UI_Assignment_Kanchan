@@ -1,0 +1,161 @@
+.section {
+	display: flex;
+
+	&-bar {
+		border: 2px solid #999;
+		width: 600px;
+		text-align: center;
+		padding-top: 10px;
+		margin-bottom: 2px;
+		padding-bottom: 10px;
+		margin-right: 20px;
+		font-family: verdana;
+		font-size: large;
+		margin-left: 255px;
+		background-size: cover;
+		height: 600px;
+
+		&-heading {
+			font-size: 20px;
+			font-family: verdana;
+		}
+
+		&-form {
+			list-style: none;
+			text-align: center;
+			font-size: 19px;
+			font-family: verdana;
+			padding-left: 0px;
+			padding-right: 20px;
+
+			&-li {
+				padding-bottom: 25px;
+			}
+
+			&-element {
+				position: relative;
+				left: 50px;
+			}
+
+			&-element1 {
+				position: relative;
+				left: 50px;
+			}
+
+			&-element2 {
+				position: relative;
+				left: 46px;
+			}
+
+			&-element3 {
+				position: relative;
+				left: 39px;
+			}
+
+			&-element4 {
+				position: relative;
+				left: 46px;
+			}
+
+			&-element5 {
+				position: relative;
+				left: 69px;
+			}
+
+			&-element6 {
+				position: relative;
+				left: 53px;
+			}
+
+			&-element7 {
+				position: relative;
+				left: 55px;
+			}
+
+			&-element8 {
+				position: relative;
+				left: 19px;
+			}
+		}
+
+		&-button {
+			display: flex;
+			justify-content: center;
+			margin-top: 3px;
+			padding-top: 40px;
+			padding-bottom: 20px;
+
+			&-reset {
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 15px;
+				padding-top: 15px;
+				margin-right: 25px;
+				border-left-width: 2px;
+				border-right-width: 2px;
+				font-size: medium;
+				font-family: verdana;
+				background-color: #1078EE;
+				color: #F7F9F9;
+			}
+
+			&-register {
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 15px;
+				padding-top: 15px;
+				margin-right: 25px;
+				border-left-width: 2px;
+				border-right-width: 2px;
+				font-size: medium;
+				font-family: verdana;
+				background-color: #24B210;
+				color: #F7F9F9;
+			}
+		}
+	}
+
+	&-dashboard {
+		border: 2px solid #999;
+		width: 400px;
+		margin-right: 500px;
+		height: 600px;
+		margin: 20px;
+		overflow-y: scroll;
+		font-family: verdana;
+		padding-top: 10px;
+		margin-bottom: 2px;
+		padding-bottom: 10px;
+		font-size: xx-large;
+		margin-top: 1px;
+
+		& -span {
+			display: flex;
+			justify-content: center;
+			font-size: 60px;
+		}
+
+		&-content {
+			list-style-type: none;
+
+			&-item {
+				text-decoration: none;
+				list-style: none;
+				background-color: #999;
+
+				&-link {
+					text-decoration: none;
+					color: black;
+				}
+			}
+		}
+	}
+}
+
+.section-dashborad-email {
+	display: none;
+}
+
+.section-dashboard-content-item-link:hover + .section-dashborad-email {
+	display: block;
+}

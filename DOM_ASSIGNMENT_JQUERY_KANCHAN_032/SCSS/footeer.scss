@@ -1,0 +1,43 @@
+.footer-bar {
+	border-top: 1px solid #a9a9a9;
+	height: 40px;
+	display: flex;
+	width: 1050px;
+	margin-left: 150px;
+	padding-left: 0;
+
+	&-left {
+		display: flex;
+		list-style-type: none;
+		margin-top: 10px;
+		padding: 0;
+
+		&-item {
+			margin-left: 25px;
+			color: #808080;
+			font-size: 13px;
+		}
+	}
+
+	&-right {
+		display: flex;
+		list-style-type: none;
+		margin-top: 10px;
+		margin-left: 160px;
+
+		&-item {
+			margin-left: 25px;
+			color: #808080;
+			font-size: 13px;
+		}
+	}
+
+	&-img {
+		background-repeat: no-repeat;
+		background-image: url(appdirect_footer.png);
+		display: block;
+		background-size: contain;
+		padding: 18px;
+		margin-left: -10px;
+	}
+}
